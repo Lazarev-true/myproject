@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Мой первый типа сайт</title>
+</head>
+<body>
+    <h1>Добро пожаловать на мой первый типа сайт!</h1>
+    <p>Тут очень важный текст</p>
+    <button onclick="document.location='/about'">Обо мне</button>
+    <ul>
+    {% for item in your_data %}
+        <li>{{ item.title }} - {{ item.description }}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
